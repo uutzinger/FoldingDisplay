@@ -1,14 +1,17 @@
-# Portable Three Panel Display
+# Portable Display Panels
+
 Inspired by DIYPerks':
 
 [![Triple Display](image.png)](https://youtu.be/aUKpY0o5tMo?si=4uNcsg3GYSb-CHlG)
 
 All displays looked up at https://www.panelook.com/
 
-There currently are no UBS-C DisplayPort 1.4/2.1 based hubs that allow plugging multiple UBS-C based displays into a single USB-C port of a labtop. USB-C to HDMI hubs exist but HDMI does not provide power to a display.
+Ideally, display panels would be powered through USB-C and an image is transmitted through the same connector using display port functionality.
+For multiple display panes, one would need a hub/dock that provides multiple display output. Currently such hubs are not available.
+HDMI hubs are available but HDMI ports dont carry power. 
 
-## Example single displays:
-Least expensive UBS-C/HDMI display is an iPad3/4 based kit. They are available for $40 inclusive the driver board.
+## Example single displays
+The least expensive UBS-C/HDMI display is an iPad3/4 based kit. They are available for $40 inclusive the driver board.
 
 16" 4k display is about $120 plus $20-30 driver board.
 
