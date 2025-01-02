@@ -1,15 +1,25 @@
 # Portable Three Panel Display
 Inspired by DIYPerks':
 
-#mV7S7jM$G97
-
 [![Triple Display](image.png)](https://youtu.be/aUKpY0o5tMo?si=4uNcsg3GYSb-CHlG)
 
 All displays looked up at https://www.panelook.com/
 
-## Example arrangements with OLED displays
+There currently are no UBS-C DisplayPort 1.4/2.1 based hubs that allow plugging multiple UBS-C based displays into a single USB-C port of a labtop. USB-C to HDMI hubs exist but HDMI does not provide power to a display.
 
-<img src=".\Sketchup.svg" alt="drawing" height="400"/>
+## Example single displays:
+Least expensive UBS-C/HDMI display is an iPad3/4 based kit. They are available for $40 inclusive the driver board.
+
+16" 4k display is about $120 plus $20-30 driver board.
+
+Display case or bezel need to be manufactured.
+
+## Example arrangements with focus on OLED displays
+
+<img src=".\Sketchup.svg" alt="drawing" height="400"/>  
+
+DIY Perks display is based on iPad 3/4 displays and central 15" gaming LCD.
+
 
 ### High Resolution Screen Dimensions
 
@@ -178,19 +188,29 @@ Needs UBS-C DisplayPort 1.4 with compression om computer for triple 4k 60Hz disp
 
 ### Two Displays through UBS-C
 
+### DIY Hub
+
+- TUSB1046-DCI for each display port
+- TI HD3SS460  Display Port Splitter MST
+DisplayPort MST HUB: 
+- Synaptic VMM9430
+- Synaptic DL-7400
+- TPS65987D  USB PD controller
+- USB Hub IC (microchip or renesas)
+
 ## Controller Boards
 
 ### iPad3/4 Controller Board
 
-- Adafruit Qualia Bare Driver iPad DisplayPort LP097QX1 driver
-- iPad 3/4 LP097QX1-SPA1 LTL097QL01 9.7 Inch DIY IPS 2048*1536 LCD Display Screen Monitor Control Driver Board $13, Mini-HDMI, UBS-C
-- Mini HDMI USB Type-C LCD Control Driver Board for iPad 3/4 LP097QX1/LTN097QL01, same as above from eBay $30
-- IPAD3 / 4 2K 2048X1536 LP097QX1 A1416 A1430 A1403 A1458 A1459 A1460 LCD Screen Mini-HDMI Control Driver Board Kit , mini-HDMI $ 10
-- IPAD5 9.7 inch eDP LCD screen 2K DIY Driver Board Kit MINI HDMI VGA type-C USB LP097QX2 air A1474 A1475 A1822 A1823 A1893, $26.40, USB-C, Mini-HDMI
+1) Adafruit Qualia Bare Driver iPad DisplayPort LP097QX1 driver
+2) iPad 3/4 LP097QX1-SPA1 LTL097QL01 9.7 Inch DIY IPS 2048*1536 LCD Display Screen Monitor Control Driver Board $13, Mini-HDMI, UBS-C
+3) Mini HDMI USB Type-C LCD Control Driver Board for iPad 3/4 LP097QX1/LTN097QL01, same as above from eBay $30
+4) IPAD3 / 4 2K 2048X1536 LP097QX1 A1416 A1430 A1403 A1458 A1459 A1460 LCD Screen Mini-HDMI Control Driver Board Kit , mini-HDMI $ 10
+5) IPAD5 9.7 inch eDP LCD screen 2K DIY Driver Board Kit MINI HDMI VGA type-C USB LP097QX2 air A1474 A1475 A1822 A1823 A1893, $26.40, USB-C, Mini-HDMI
 
 ### eDP Controller Board
 
-- Aliexpress $16, 40PIN Micro HDMI to EDP driver board EDP Signal LCD screen driver Adapter Portable LCD Display Projection 2K 4K 60hz 120Hz 144hz
+1) Aliexpress $16, 40PIN Micro HDMI to EDP driver board EDP Signal LCD screen driver Adapter Portable LCD Display Projection 2K 4K 60hz 120Hz 144hz
     - 1920*1080/120HZ,
     - 1920*1200/144HZ, 
     - 2560*1440/120HZ,
@@ -201,8 +221,8 @@ Needs UBS-C DisplayPort 1.4 with compression om computer for triple 4k 60Hz disp
 
 compatible with 16:9/16:10 
 
-- $19 edp driver board 4k 8K 120HZ DP to eDP for Portable LCD display edp 30P 40P
-- $30 40P 0.5mm edp lcd driver board HDMI input Type-c PD power 5-20V support 4K 60HZ 3K 2K 1080P
+2) $19 edp driver board 4k 8K 120HZ DP to eDP for Portable LCD display edp 30P 40P
+3) $30 40P 0.5mm edp lcd driver board HDMI input Type-c PD power 5-20V support 4K 60HZ 3K 2K 1080P
 
 
 ## Power
