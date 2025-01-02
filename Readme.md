@@ -14,7 +14,7 @@ Least expensive UBS-C/HDMI display is an iPad3/4 based kit. They are available f
 
 Display case or bezel need to be manufactured.
 
-## Example arrangements with focus on OLED displays
+## Example folding display arrangements
 
 <img src=".\Sketchup.svg" alt="drawing" height="400"/>  
 
