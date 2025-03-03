@@ -2,7 +2,7 @@
 
 Inspired by DIYPerks':
 
-[![Triple Display](image.png)](https://youtu.be/aUKpY0o5tMo?si=4uNcsg3GYSb-CHlG)
+[![Triple Display](assets/image.png)](https://youtu.be/aUKpY0o5tMo?si=4uNcsg3GYSb-CHlG)
 
 All displays looked up at https://www.panelook.com/
 
@@ -10,12 +10,21 @@ Ideally, display panels would be powered through USB-C and an image is transmitt
 For multiple display panes, one would need a hub/dock that provides multiple display output. Currently such hubs are not available.
 HDMI hubs are available but HDMI ports dont carry power. 
 
-## Example single displays
-The least expensive UBS-C/HDMI display is an iPad3/4 based kit. They are available for $40 inclusive the driver board.
+## Example Single Displays
+### MiniView
+The least expensive UBS-C/HDMI display is an iPad3/4 based kit. 
+They are available for $40 inclusive the driver board.
 
+Based on:
+- LG LP097QX1-SPA1 kit https://www.aliexpress.us/item/3256806916444381.html
+- USB-C DP to HDMI https://a.co/d/fo03tSm 
+- Laptop Hinge (MacBook Pro) https://a.co/d/ebIByZG
+- Bezel and Case with Lid (click on image for OnShape document):
+
+<a href="https://cad.onshape.com/documents/50a761747f1cc16e77337847/w/4e47fa5bfd7f5cd9f7cffc1a/e/f2395dc996873481e09ebc19" target="_blank"> <img src="assets/MiniView.png" width="600"> </a>
+
+### MaxiView
 16" 4k display is about $120 plus $20-30 driver board.
-
-Display case or bezel need to be manufactured.
 
 ## Example folding display arrangements
 
@@ -29,17 +38,18 @@ DIY Perks display is based on iPad 3/4 displays and central 15" gaming LCD.
 | Resolution | Diagonale | Width | Height | OLED | eBay / Aliexpress |
 | -----------| ----------| ----- | ------ | ---- | --- |
 | 2560x1600  | 8.4"      | 7.12  | 4.45   | Y | $100
-| 2560x1600  | 8.9"      | 7.56  | 4.72   |   |
-| 2048x1536  | 9.7       | 7.74  | 5.81   |   | $30 iPad3/4
+| 2560x1600  | 8.9"      | 7.56  | 4.72   | n |
+| 2048x1536  | 9.7       | 7.74  | 5.81   | n | $30 iPad3/4
 | 2560x1600  | 10.5      | 8.92  | 5.57   | y | $80
 | 3840x2160  | 13.3"     | 11.57 | 6.51   | y | $90-140
-| 2880x1800  | 13.3"     | 11.57 | 6.51   |   | $100-180
-| 3840x2160  | 14"       | 12.17 | 6,85   |   |
+| 2880x1800  | 13.3"     | 11.57 | 6.51   | n | $100-180
+| 3840x2160  | 14"       | 12.17 | 6,85   | n |
 | 3840x2400  | 14"       | 11.88 | 7.43   | y | $230
 | 3840x2160  | 15.6"     | 13.55 | 7.62   | y | $230
-| 2560X1440  | 15.6"     | 13.59 | 7.65   |   | Gaming 165Hz laptop |
+| 2560X1440  | 15.6"     | 13.59 | 7.65   | n | Gaming 165Hz laptop |
+| 3840x2400  | 16"       |       |        | n | $75-$95
 | 3840x2400  | 16"       | 13.56 | 8.48   | y | $120-160
-| 3840X2400  | 17"       | 14.42 | 9.01   |   |
+| 3840X2400  | 17"       | 14.42 | 9.01   | n |
 
 ### 8.3" Side Panel
 8.3" 2266x1488 326dpi  6.94x4.56
@@ -115,14 +125,14 @@ On AliExpress driver board with display is $43. Search for LP097QX1-SPA1
 | Samsung | ATNA33TP10    | 400 | 10000:1 | eDP | AMOLED | 60Hz | $140
 | Sharp   | LQ133D1JX31   | 400 | 1500:1  | eDP | LCM    | 60Hz |
 
-- ATNA33TP10  $96-$180 (non touch) 2023
-- ATNA33TP11 \$90 (aliexpress) -\$ 130(ebay) (non touch) 2022
+- ATNA33TP10 11.57 x 6.51 (293.76(W) × 165.24(H) mm), $100 - $105, (non touch) 2023
+- ATNA33TP11 11.57 x 6.51 (293.76(W) × 165.24(H) mm), 75 - 130 AliExpress, $ 130(ebay) (non touch) 2022
 
 | | | |  
 | --- | --- | --- |  
 | 2880x1800 | 3k | 11.25" x 7.04"
 
-- ATNA33AA05-0  $168
+- ATNA33AA05-0,   $168
 - ATNA33AA01-002 $100
 - ATNA33AA06 $120
 - ATNA33AA02-0 $160-188
@@ -145,7 +155,7 @@ On AliExpress driver board with display is $43. Search for LP097QX1-SPA1
 | Manufacturer | Part # | Brightness | Contrast | Connector | Type | Framerate |
 | ------------ | ------ | ---------- | -------- | --------- | ---- | --------- |
 | Samsung | ATNA40YN04-0 | 400 | 100,000:1 | edP | OLED | 60HZ
-| Samsung | ATNA40YN04-1 | | | | |
+| Samsung | ATNA40YN04-1 | 400 | 100,000:1 | eDP | OLED | 60Hz
 
 ### 15.6" Main Display
 | | | |  
@@ -154,16 +164,19 @@ On AliExpress driver board with display is $43. Search for LP097QX1-SPA1
 
 | Manufacturer | Part # | Brightness   | Contrast | Connector | Type | Framerate |
 | ------------ | ------ | ----------   | -------- | --------- | ---- | --------- |
-| BOE     | NE156QUM-NZ3 | 400         | 1,200:1   | eDP      | LCM  | 120Hz
+| BOE     | NE156QUM-NZ3 | 400         | 1,200:1   | eDP      | LCM  | **120Hz**
 | Samsung | ATNA56WR06-0 | 440         | 100,000:1 | eDP      | OLED | 60Hz
 
-- ATNA56WR06-0 13.55 x 7.62
-- ATNA56WR18-0
-- ATNA56WR01-002
-- ATNA56WR04-0
-- ATNA56WR16-0
-- ATNA56WR11
+Samsung
+- ATNA56WR06-0,  13.55 x 7.62 (344.218(W)×193.622(H) mm), $130-150 AliExpress
+- ATNA56WR18-0,  13.55 x 7.62 (344.218(W)×193.622(H) mm), $180-220 AliExpress
+- ATNA56WR01-002,13.55 x 7.62 (344.218(W)×193.622(H) mm), $200-350 AliExpress
+- ATNA56WR04-0,  13.55 x 7.62 (344.218(W)×193.622(H) mm), $190-280 AliExpress
+- ATNA56WR16-0,  13.55 x 7.62 (344.218(W)×193.622(H) mm), $190-200 AliExpress
+- ATNA56WR11,    13.55 x 7.62 (344.218(W)×193.622(H) mm), $150-250 AliExpress
 
+BOE
+- NE156QUM-NZ3,  13.55 x 7.62 (344.218(W)×193.622(H) mm), $80-90 AliExpress
 
 ### 16" Main Display
 
@@ -173,14 +186,39 @@ On AliExpress driver board with display is $43. Search for LP097QX1-SPA1
 
 | Manufacturer | Part # | Brightness | Contrast | Connector | Type | Framerate |
 | ------------ | ------ | ---------- | -------- | --------- | ---- | --------- |
-| Sam | ATNA60YV02-0| 440 | 100,000:1 | eDP1.4b | OLED | 60Hz
+| Sam | ATNA60YV02-0  | 440 | 100,000:1 | eDP1.4b | OLED | 60Hz
+| BOE | NE160QAM-NX1  | 500 | 1200:1 | eDP | WLED | **120Hz** 
+| LG  | LP160UQ1-SPB1 | 600 | 1500:1 | eDP | WLED |  60Hz
 
-- ATNA60YV01-0 $150
-- ATNA60YV02-0 $120 
-- ATNA60YV06-0 $185
-- ATNA60YV07 $187
-- ATNA60YV08 $200
-- ATNA60YV09 $330
+Oled
+
+- ATNA60YV01-0, 13.56 x 8.48 (344.448(W)×215.28(H) mm), $140 - $160
+- ATNA60YV02-0, 13.56 x 8.48 (344.448(W)×215.28(H) mm), $120 - 145 
+- ATNA60YV06-0, 13.56 x 8.48 (344.448(W)×215.28(H) mm), $200 - 225
+- ATNA60YV07,   13.56 x 8.48 (344.448(W)×215.28(H) mm), $190 - 250
+- ATNA60YV08,   13.56 x 8.48 (344.448(W)×215.28(H) mm), $205 - 260
+- ATNA60YV09,   13.56 x 8.48 (344.448(W)×215.28(H) mm), $330
+
+WLED
+- LP160UQ1-SPB1 $75-$95
+- NE160QAM-NX1 $90 -$120
+- NE160QAM-NZ1 $80 -$120
+- NE160QAM-N61
+- NE160QAM-NM1
+
+### 17" Main Display
+
+| | | |  
+| --- | --- | --- |  
+| 3840x2400 | 4k | 13.56 x 8.48
+
+| Manufacturer | Part # | Brightness | Contrast | Connector | Type | Framerate |
+| ------------ | ------ | ---------- | -------- | --------- | ---- | --------- |
+|  Sharp | LQ170R1JX41| 500 | 1,600:1 | eDP1.4b | WLED | 60Hz | ?
+|  Sharp | LQ170R1JX42| 500 | 1,600:1 | eDP1.4b | WLED | 60Hz | ?
+
+- LQ170R1JX41 $95 - $145 AliExpress
+- LQ170R1JX42 $85 - $120 AliExpress
 
 ## USB-C MST dock
 
@@ -226,7 +264,6 @@ compatible with 16:9/16:10
 
 2) $19 edp driver board 4k 8K 120HZ DP to eDP for Portable LCD display edp 30P 40P
 3) $30 40P 0.5mm edp lcd driver board HDMI input Type-c PD power 5-20V support 4K 60HZ 3K 2K 1080P
-
 
 ## Power
 
