@@ -23,6 +23,8 @@ Based on:
 
 <a href="https://cad.onshape.com/documents/50a761747f1cc16e77337847/w/4e47fa5bfd7f5cd9f7cffc1a/e/f2395dc996873481e09ebc19" target="_blank"> <img src="assets/MiniView.png" width="600"> </a>
 
+Item has not been manufactured yet. Hole dimensions should match.
+
 ### MaxiView
 16" 4k display is about $120 plus $20-30 driver board.
 
