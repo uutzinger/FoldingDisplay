@@ -13,7 +13,7 @@ HDMI hubs are available but HDMI ports dont carry power.
 ## Example Single Displays
 ### MiniView
 The least expensive UBS-C/HDMI display is an iPad3/4 based kit. 
-They are available for $40 inclusive the driver board.
+They are available for $40 including the driver board.
 
 Based on:
 - LG LP097QX1-SPA1 kit https://www.aliexpress.us/item/3256806916444381.html
@@ -23,7 +23,19 @@ Based on:
 
 <a href="https://cad.onshape.com/documents/50a761747f1cc16e77337847/w/4e47fa5bfd7f5cd9f7cffc1a/e/f2395dc996873481e09ebc19" target="_blank"> <img src="assets/MiniView.png" width="600"> </a>
 
-Item has not been manufactured yet. Hole dimensions should match.
+The case has not been manufactured yet:
+
+- [Faceplate DXF](assets/Face.dxf)
+- [Coverplate DXF](assets/Cover.dxf)
+- [Bottomplate DXF](assets/Bottom.dxf)
+
+#### Bend Allowance
+5052 Aluminium $K = 0.45$
+
+$Bend Allowance = 3.141/180 * bend_{angle} * (radius_{indisde} + K * thickness)$
+
+For a 1mm (0.04") thick sheet bend allowaces is 2.277mm.
+
 
 ### MaxiView
 16" 4k display is about $120 plus $20-30 driver board.
