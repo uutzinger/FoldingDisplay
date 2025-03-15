@@ -25,16 +25,18 @@ Based on:
 
 The case has not been manufactured yet:
 
-- [Faceplate DXF](assets/Face.dxf)
-- [Coverplate DXF](assets/Cover.dxf)
-- [Bottomplate DXF](assets/Bottom.dxf)
+- [Faceplate DXF](assets/MiniView-Face.dxf)
+- [Coverplate DXF](assets/MiniView-Cover.dxf)
+- [Bottomplate DXF](assets/MiniView-Bottom.dxf)
+- [Reinforceplate DXF](assets/MiniView-Reinforce.dxf)
 
 #### Bend Allowance
 5052 Aluminium $K = 0.45$
 
 $Bend Allowance = 3.141/180 * bend_{angle} * (radius_{indisde} + K * thickness)$
 
-For a 1mm (0.04") thick sheet bend allowaces is 2.277mm.
+For a 1mm (0.04") thick sheet bend allowance is 2.28mm.
+For a 0.81mm (0.032") thick sheet bend allowance is 2.14mm
 
 
 ### MaxiView
