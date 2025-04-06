@@ -6,31 +6,73 @@ Inspired by DIYPerks':
 
 All displays looked up at https://www.panelook.com/
 
-Ideally, display panels would be powered through USB-C and an image is transmitted through the same connector using display port functionality.
-For multiple display panes, one would need a hub/dock that provides multiple display output. Currently such hubs are not available.
-HDMI hubs are available but HDMI ports dont carry power. 
+Ideally, display panels would be powered through USB-C and the image data is transmitted through the same connector using display port functionality.
 
-## Example Single Displays
-### MiniView
+For multiple display panes, one would need a hub/dock that provides multiple display outputs. Currently there are no hubs that create multiple UBS-C display port connections.
+
+## Single Displays
+
 The least expensive UBS-C/HDMI display is an iPad3/4 based kit. 
-They are available for $40 including the driver board.
 
-Based on:
-- LG LP097QX1-SPA1 kit https://www.aliexpress.us/item/3256806916444381.html
-- USB-C DP to HDMI https://a.co/d/fo03tSm 
-- Laptop Hinge (MacBook Pro) https://a.co/d/ebIByZG
-- Bezel and Case with Lid (click on image for OnShape document):
+Bill of Materials:
+- LG LP097QX1-SPA1 kit [AliExpress](https://www.aliexpress.us/item/3256806916444381.html) **$43**
+- Display Cable: 
+    - USB-C DP to HDMI [Amazon](https://a.co/d/fo03tSm) **$10** (full resolution)
+    - or HDMI to mini HDMI [Amazon](https://a.co/d/0uEp8F2) **$6** (full resolution)
+    - or USB C cable for 4k display (reduced resolution)
+- Laptop Hinge (MacBook Pro) 
+    - [AliExpress](https://www.aliexpress.us/item/3256807782293301.html) **$4**
+    - or [Amazon](https://a.co/d/isZmx7a) **$10**
+- M2 standoff [Amazon](https://a.co/d/eLxK6wh) **$10** for 50
+- M2 button head screws [McMaster](https://www.mcmaster.com/92095A451/) **$6.34** for 25
+- M3 buttonm head screws for hinges [McMaster](https://www.mcmaster.com/92095A179/) **$5.83** for 100
+- M3 nuts for hinges [McMaster](https://www.mcmaster.com/91828A113/) **$4.73** for 100
+- M2.5 button head screw for hinges [McMaster](https://www.mcmaster.com/92095A459/) **7.14** for 25
+- M2.5 nuts for hinges [McMaster](https://www.mcmaster.com/91828A113/) **$6.45** for 100
+- Adhesive T-7000 for face and bottom plate [Amazon](https://a.co/d/io9T1JA) **$6**
+- 2 component epoxy for cover plate [ACE](https://www.acehardware.com/departments/paint-and-supplies/tape-glues-and-adhesives/glues-and-epoxy/1000958) **$10**
+- Aluminum Sheet:
+    - Raw material 0.032"/8mm thick [Industrial Metal Supply](https://www.industrialmetalsupply.com/aluminum/sheet-plate/5052#1) **$7**
+        - Make yourself on WaterJet (ProtoMax) or Laser (fablight, OMTech)
+    - Fabricated by [Send Cut Send](https://sendcutsend.com) 
+        - Sandwith **$46** (use second Rim instead)
+        - Bottom **$16**
+        - Rim **13.74**
+        - Cover **$15.64**
+        - Face **$14.86**
+- Spacer:
+    - PLA 3D printed, requires large bed printer such as Prusa XL **$8**
 
-<a href="https://cad.onshape.com/documents/50a761747f1cc16e77337847/w/4e47fa5bfd7f5cd9f7cffc1a/e/f2395dc996873481e09ebc19" target="_blank"> <img src="assets/MiniView.png" width="600"> </a>
+### MiniView 9.7" V2
 
-The case has not been manufactured yet:
+The case can be manufactured with 3D Printer and laser or water jet cut plates.
 
-- [Faceplate DXF](assets/MiniView-Face.dxf)
-- [Coverplate DXF](assets/MiniView-Cover.dxf)
-- [Bottomplate DXF](assets/MiniView-Bottom.dxf)
-- [Reinforceplate DXF](assets/MiniView-Reinforce.dxf)
+- [Faceplate DXF](assets/MiniView/V2/MiniView-Face.dxf)
+- [Bottomplate DXF](assets/MiniView/V2/MiniView-Bottom.dxf)
+- [Coverplate DXF](assets/MiniView/V2/MiniView-Cover.dxf)
+- [Rimplate DXF](assets/MiniView/V2/MiniView-Rim.dxf)
+- [Sandwichplate DXF](assets/MiniView/V2/MiniView-Sandwich.dxf)
 
-#### Bend Allowance
+<a href="https://cad.onshape.com/documents/be3ee7f66bee314b5a94be03/w/50f87e2b6d8fc3bc46db833f/e/19b127f7070aa7e81b224c8b" target="_blank"> <img src="assets/MiniView/V2/MiniView.png" width="600"> </a>
+
+### MiniView 9.7" V1
+
+The case can be manufactured with laser or water jet cutting and a sheet metal brake.
+
+- [Faceplate DXF](assets/MiniView/V1/MiniView-Face.dxf)
+- [Coverplate DXF](assets/MiniView/V1/MiniView-Cover.dxf)
+- [Bottomplate DXF](assets/MiniView/V1/MiniView-Bottom.dxf)
+- [Reinforceplate DXF](assets/MiniView/V1/MiniView-Reinforce.dxf)
+<a href="https://cad.onshape.com/documents/50a761747f1cc16e77337847/w/4e47fa5bfd7f5cd9f7cffc1a/e/f2395dc996873481e09ebc19" target="_blank"> <img src="assets/MiniView/V1/MiniView.png" width="600"> </a>
+
+<a target="_blank"> <img src="assets/MiniView/V1/MiniViewFront.jpg" height="300"> </a>
+<a target="_blank"> <img src="assets/MiniView/V1/MiniViewSide.jpg" height="300"> </a>
+<a target="_blank"> <img src="assets/MiniView/V1/MiniViewBack.jpg" width="300"> </a>
+
+
+The face plate requires sheet metal bending.
+
+#### Bend Allowance Calculation
 5052 Aluminium $K = 0.45$
 
 $Bend Allowance = 3.141/180 * bend_{angle} * (radius_{indisde} + K * thickness)$
@@ -51,7 +93,7 @@ DIY Perks display is based on iPad 3/4 displays and central 15" gaming LCD.
 
 ### High Resolution Screen Dimensions
 
-| Resolution | Diagonale | Width | Height | OLED | eBay / Aliexpress |
+| Resolution | Diagonal  | Width | Height | OLED | eBay / Aliexpress |
 | -----------| ----------| ----- | ------ | ---- | --- |
 | 2560x1600  | 8.4"      | 7.12  | 4.45   | Y | $100
 | 2560x1600  | 8.9"      | 7.56  | 4.72   | n |
@@ -101,6 +143,7 @@ DIY Perks display is based on iPad 3/4 displays and central 15" gaming LCD.
 | | | |  
 | --- | --- | --- |  
 | 2048x1536 | | 7.76"x5.82"
+|           | | 168.25 x 209 x 2.8mmm (5.1mm thickest place at flat cable fold++)
 
 | Manufacturer | Part # | Brightness | Contrast | Connector | Type | Framerate | Comment |
 | ------------ | ------ | ---------- | -------- | --------- | ---- | --------- | ------- |
@@ -284,7 +327,6 @@ compatible with 16:9/16:10
 ## Power
 
 ## Enclosure
-Hinges: https://a.co/d/isZmx7a
 
 ## Resolutions
 
