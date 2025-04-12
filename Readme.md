@@ -47,11 +47,12 @@ Bill of Materials:
 
 The case can be manufactured with 3D Printer and laser or water jet cut plates.
 
-- [Faceplate DXF](assets/MiniView/V2/MiniView-Face.dxf)
-- [Bottomplate DXF](assets/MiniView/V2/MiniView-Bottom.dxf)
-- [Coverplate DXF](assets/MiniView/V2/MiniView-Cover.dxf)
-- [Rimplate DXF](assets/MiniView/V2/MiniView-Rim.dxf)
-- [Sandwichplate DXF](assets/MiniView/V2/MiniView-Sandwich.dxf)
+- [Faceplate DXF](assets/MiniView/V2/MiniView%20-%20Face.dxf)
+- [Bottomplate DXF](assets/MiniView/V2/MiniView%20-%20Bottom.dxf)
+- [Coverplate DXF](assets/MiniView/V2/MiniView%20-%20Cover.dxf)
+- [Rimplate DXF](assets/MiniView/V2/MiniView%20-%20Rim.dxf)
+- [Sandwichplate DXF](assets/MiniView/V2/MiniView%20-%20Sandwich.dxf)
+- [Spacer ZIP of STL](assets/MiniView/V2/MiniView%20-%20Spacer.zip)
 
 <a href="https://cad.onshape.com/documents/be3ee7f66bee314b5a94be03/w/50f87e2b6d8fc3bc46db833f/e/19b127f7070aa7e81b224c8b" target="_blank"> <img src="assets/MiniView/V2/MiniView.png" width="600"> </a>
 
